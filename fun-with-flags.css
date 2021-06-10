@@ -1,82 +1,86 @@
-body{
-  background-color:pink;
-  margin-left:40%;    
-  margin-right:40%;
+body {
+  background-color: pink;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
-.Germantop{
-  background-color:black;
-  width:320px;
-  height:80px;
+h1 {
+  text-align: center;
 }
 
-.Germanmid{
-  background-color:#DD0000;
-  width:320px;
-  height:80px;
+.Germantop {
+  background-color: black;
+  width: 320px;
+  height: 80px;
 }
 
-.Germanbotm{
-  background-color:#FFCE00;
-  width:320px;
-  height:80px;
+.Germanmid {
+  background-color: #dd0000;
+  width: 320px;
+  height: 80px;
 }
 
-.Frenchtop{
-  background-color: #001E96;
-  width:320px;
-  height:200px;
+.Germanbotm {
+  background-color: #ffce00;
+  width: 320px;
+  height: 80px;
 }
 
-.Frenchmid{
-  background-color:#FFFFFF;
-  width:320px;
-  height:200px;
+.Frenchtop {
+  background-color: #ed2436;
+  width: 320px;
+  height: 200px;
 }
 
-.Frenchbotm{
-  background-color:#ED2436;
-  width:320px;
-  height:200px;
+.Frenchmid {
+  background-color: #ffffff;
+  width: 320px;
+  height: 200px;
 }
 
-.Frenchflag{
+.Frenchbotm {
+  background-color: #001e96;
+  width: 320px;
+  height: 200px;
+}
+
+.Frenchflag {
   display: flex;
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
-.Germanflag:hover .Germantop{
-  background-color: #CE253C;
-  width:320px;
-  height:80px;
+.Germanflag:hover .Germantop {
+  background-color: #ce253c;
+  width: 320px;
+  height: 80px;
 }
 
-.Germanflag:hover .Germanmid{
+.Germanflag:hover .Germanmid {
   background-color: #ffff;
-  width:320px;
-  height:80px;
+  width: 320px;
+  height: 80px;
 }
 
-.Germanflag:hover .Germanbotm{
-  background-color: #41704C;
-  width:320px;
-  height:80px;
+.Germanflag:hover .Germanbotm {
+  background-color: #41704c;
+  width: 320px;
+  height: 80px;
 }
 
-.Frenchflag:hover .Frenchtop{
-  background-color: #0E9C62;
-  width:320px;
-  height:200px;
+.Frenchflag:hover .Frenchtop {
+  background-color: #ff893c;
+  width: 320px;
+  height: 200px;
 }
 
-.Frenchflag:hover .Frenchmid{
-  background-color:#FFFFFF;
-  width:320px;
-  height:200px;
+.Frenchflag:hover .Frenchmid {
+  background-color: #ffffff;
+  width: 320px;
+  height: 200px;
 }
 
-.Frenchflag:hover .Frenchbotm{
-  background-color: #FF893C;
-  width:320px;
-  height:200px;
+.Frenchflag:hover .Frenchbotm {
+  background-color: #0e9c62;
+  width: 320px;
+  height: 200px;
 }
